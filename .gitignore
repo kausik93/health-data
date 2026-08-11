@@ -1,0 +1,22 @@
+# Data & backups (never commit personal health data)
+data/
+backups/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/

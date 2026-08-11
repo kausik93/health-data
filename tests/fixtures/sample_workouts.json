@@ -1,0 +1,64 @@
+[
+  {
+    "id": "workout-push-2026-07-27",
+    "routine_id": "routine-push-day-2",
+    "name": "Push (Day 2)",
+    "description": "",
+    "start_time": 1785168960,
+    "end_time": 1785175020,
+    "biometrics": {"total_calories": 568.49},
+    "estimated_volume_lbs": 9489.01,
+    "exercises": [
+      {
+        "id": "instance-uuid-1",
+        "exercise_template_id": "55E6546F",
+        "title": "Incline Bench Press (Barbell)",
+        "muscle_group": "chest",
+        "equipment_category": "barbell",
+        "notes": "Move onto 80",
+        "superset_id": null,
+        "sets": [
+          {"id": "set-1001", "index": 0, "indicator": "normal", "reps": 10, "weight_lbs": 75.0, "duration_seconds": null, "distance_meters": null, "rpe": null},
+          {"id": "set-1002", "index": 1, "indicator": "normal", "reps": 9, "weight_lbs": 75.0, "duration_seconds": null, "distance_meters": null, "rpe": null},
+          {"id": "set-1003", "index": 2, "indicator": "normal", "reps": 8, "weight_lbs": 75.0, "duration_seconds": null, "distance_meters": null, "rpe": null}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "workout-treadmill-2026-08-04",
+    "routine_id": null,
+    "name": "Treadmill",
+    "description": "",
+    "start_time": 1785830360,
+    "end_time": 1785832160,
+    "biometrics": {"total_calories": 168.0},
+    "estimated_volume_lbs": 0.0,
+    "exercises": [
+      {
+        "id": "instance-uuid-2",
+        "exercise_template_id": "TREADMILL01",
+        "title": "Treadmill",
+        "muscle_group": "cardio",
+        "equipment_category": "none",
+        "notes": null,
+        "superset_id": null,
+        "sets": [
+          {"id": "set-2001", "index": 0, "indicator": "normal", "reps": null, "weight_lbs": null, "duration_seconds": 1200, "distance_meters": 2.34, "rpe": null}
+        ]
+      },
+      {
+        "id": "instance-uuid-3",
+        "exercise_template_id": "CYCLING01",
+        "title": "Cycling",
+        "muscle_group": "cardio",
+        "equipment_category": "none",
+        "notes": null,
+        "superset_id": null,
+        "sets": [
+          {"id": "set-2002", "index": 0, "indicator": "normal", "reps": null, "weight_lbs": null, "duration_seconds": 900, "distance_meters": 4.04, "rpe": null}
+        ]
+      }
+    ]
+  }
+]
